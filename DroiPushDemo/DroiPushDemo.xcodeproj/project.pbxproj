@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053AEE8150F2DAA24BB64192 /* libPods-DroiPushDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1C224D4DB596B7852D32C5 /* libPods-DroiPushDemo.a */; };
+		2B892F97A17A6268198320DB /* DroiBaaS.m in Sources */ = {isa = PBXBuildFile; fileRef = 82726C00843460D8412F5B39 /* DroiBaaS.m */; };
+		83A708411E7122ACCCABD8C3 /* DroiBaaS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90A6BB1B12337E08426FBF78 /* DroiBaaS.plist */; };
+		D9081446EEE1103317109411 /* DroiBaaS.h in Headers */ = {isa = PBXBuildFile; fileRef = A257E93D3ABE198FD642E84F /* DroiBaaS.h */; };
+		FC3104911D3642800080C7CE /* DroiPushViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC31048E1D3642800080C7CE /* DroiPushViewController.h */; };
+		FC3104921D3642810080C7CE /* DroiPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31048F1D3642800080C7CE /* DroiPushViewController.m */; };
+		FC3104931D3642810080C7CE /* DroiPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3104901D3642800080C7CE /* DroiPushViewController.xib */; };
+		FCEF2E401D3637E20091F6DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2E3F1D3637E20091F6DD /* main.m */; };
+		FCEF2E431D3637E20091F6DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2E421D3637E20091F6DD /* AppDelegate.m */; };
+		FCEF2E4B1D3637E20091F6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEF2E4A1D3637E20091F6DD /* Assets.xcassets */; };
+		FCEF2E4E1D3637E30091F6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF2E4C1D3637E30091F6DD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D1C224D4DB596B7852D32C5 /* libPods-DroiPushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DroiPushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C022071347A3EBA2A6EF8F0 /* Pods-DroiPushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroiPushDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroiPushDemo/Pods-DroiPushDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		82726C00843460D8412F5B39 /* DroiBaaS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DroiBaaS.m; sourceTree = "<group>"; };
+		90A6BB1B12337E08426FBF78 /* DroiBaaS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = DroiBaaS.plist; sourceTree = "<group>"; };
+		A257E93D3ABE198FD642E84F /* DroiBaaS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DroiBaaS.h; sourceTree = "<group>"; };
+		FADD91A1BBEF6FC7C6C450A7 /* Pods-DroiPushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroiPushDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroiPushDemo/Pods-DroiPushDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FC31048E1D3642800080C7CE /* DroiPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroiPushViewController.h; sourceTree = "<group>"; };
+		FC31048F1D3642800080C7CE /* DroiPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DroiPushViewController.m; sourceTree = "<group>"; };
+		FC3104901D3642800080C7CE /* DroiPushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DroiPushViewController.xib; sourceTree = "<group>"; };
+		FC8525641D913C4600AF825E /* 卓易推送.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "卓易推送.entitlements"; sourceTree = "<group>"; };
+		FCEF2E3B1D3637E20091F6DD /* 卓易推送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "卓易推送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEF2E3F1D3637E20091F6DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCEF2E411D3637E20091F6DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCEF2E421D3637E20091F6DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCEF2E4A1D3637E20091F6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCEF2E4D1D3637E30091F6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCEF2E4F1D3637E30091F6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEF2E381D3637E20091F6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053AEE8150F2DAA24BB64192 /* libPods-DroiPushDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058BD1A5425AFAA32608A1FD /* DroiBaaS */ = {
+			isa = PBXGroup;
+			children = (
+				A257E93D3ABE198FD642E84F /* DroiBaaS.h */,
+				82726C00843460D8412F5B39 /* DroiBaaS.m */,
+				90A6BB1B12337E08426FBF78 /* DroiBaaS.plist */,
+			);
+			name = DroiBaaS;
+			sourceTree = "<group>";
+		};
+		C89F7D38FFEF233EE1F99EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1C224D4DB596B7852D32C5 /* libPods-DroiPushDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2491FFFC8939F52A28109F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C022071347A3EBA2A6EF8F0 /* Pods-DroiPushDemo.debug.xcconfig */,
+				FADD91A1BBEF6FC7C6C450A7 /* Pods-DroiPushDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCEF2E321D3637E20091F6DD = {
+			isa = PBXGroup;
+			children = (
+				FCEF2E3D1D3637E20091F6DD /* DroiPushDemo */,
+				FCEF2E3C1D3637E20091F6DD /* Products */,
+				E2491FFFC8939F52A28109F8 /* Pods */,
+				C89F7D38FFEF233EE1F99EDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEF2E3C1D3637E20091F6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF2E3B1D3637E20091F6DD /* 卓易推送.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEF2E3D1D3637E20091F6DD /* DroiPushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FC8525641D913C4600AF825E /* 卓易推送.entitlements */,
+				FC31048E1D3642800080C7CE /* DroiPushViewController.h */,
+				FC31048F1D3642800080C7CE /* DroiPushViewController.m */,
+				FC3104901D3642800080C7CE /* DroiPushViewController.xib */,
+				FCEF2E411D3637E20091F6DD /* AppDelegate.h */,
+				FCEF2E421D3637E20091F6DD /* AppDelegate.m */,
+				FCEF2E4A1D3637E20091F6DD /* Assets.xcassets */,
+				FCEF2E4C1D3637E30091F6DD /* LaunchScreen.storyboard */,
+				FCEF2E4F1D3637E30091F6DD /* Info.plist */,
+				FCEF2E3E1D3637E20091F6DD /* Supporting Files */,
+				058BD1A5425AFAA32608A1FD /* DroiBaaS */,
+			);
+			path = DroiPushDemo;
+			sourceTree = "<group>";
+		};
+		FCEF2E3E1D3637E20091F6DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF2E3F1D3637E20091F6DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CE6D0EF6ADDF0D3901574CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9081446EEE1103317109411 /* DroiBaaS.h in Headers */,
+				FC3104911D3642800080C7CE /* DroiPushViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FCEF2E3A1D3637E20091F6DD /* DroiPushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEF2E521D3637E30091F6DD /* Build configuration list for PBXNativeTarget "DroiPushDemo" */;
+			buildPhases = (
+				BE1AF5276BC2F85931812E54 /* [CP] Check Pods Manifest.lock */,
+				99BA46EAAF8FF0E3416AB483 /* DroiBaaS Preprocessor */,
+				FCEF2E371D3637E20091F6DD /* Sources */,
+				FCEF2E381D3637E20091F6DD /* Frameworks */,
+				FCEF2E391D3637E20091F6DD /* Resources */,
+				9CE6D0EF6ADDF0D3901574CF /* Headers */,
+				CC32603C344080ABD0732880 /* [CP] Embed Pods Frameworks */,
+				21B20579055AFCEDA9A21B7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroiPushDemo;
+			productName = DroiPushDemo;
+			productReference = FCEF2E3B1D3637E20091F6DD /* 卓易推送.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEF2E331D3637E20091F6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Droi;
+				TargetAttributes = {
+					FCEF2E3A1D3637E20091F6DD = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FCEF2E361D3637E20091F6DD /* Build configuration list for PBXProject "DroiPushDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCEF2E321D3637E20091F6DD;
+			productRefGroup = FCEF2E3C1D3637E20091F6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEF2E3A1D3637E20091F6DD /* DroiPushDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEF2E391D3637E20091F6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF2E4E1D3637E30091F6DD /* LaunchScreen.storyboard in Resources */,
+				FCEF2E4B1D3637E20091F6DD /* Assets.xcassets in Resources */,
+				83A708411E7122ACCCABD8C3 /* DroiBaaS.plist in Resources */,
+				FC3104931D3642810080C7CE /* DroiPushViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21B20579055AFCEDA9A21B7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroiPushDemo/Pods-DroiPushDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BA46EAAF8FF0E3416AB483 /* DroiBaaS Preprocessor */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "DroiBaaS Preprocessor";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/DroiCoreSDK/scripts/baas_cli\" parse \"${SRCROOT}\"";
+		};
+		BE1AF5276BC2F85931812E54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC32603C344080ABD0732880 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroiPushDemo/Pods-DroiPushDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEF2E371D3637E20091F6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF2E431D3637E20091F6DD /* AppDelegate.m in Sources */,
+				FCEF2E401D3637E20091F6DD /* main.m in Sources */,
+				FC3104921D3642810080C7CE /* DroiPushViewController.m in Sources */,
+				2B892F97A17A6268198320DB /* DroiBaaS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCEF2E4C1D3637E30091F6DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF2E4D1D3637E30091F6DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCEF2E501D3637E30091F6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCEF2E511D3637E30091F6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCEF2E531D3637E30091F6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C022071347A3EBA2A6EF8F0 /* Pods-DroiPushDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DroiPushDemo/卓易推送.entitlements";
+				INFOPLIST_FILE = DroiPushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.droibaas.PushDemo;
+				PRODUCT_NAME = "卓易推送";
+				PROVISIONING_PROFILE = "15c30494-572f-40a6-9733-d2b4a95ff45b";
+			};
+			name = Debug;
+		};
+		FCEF2E541D3637E30091F6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADD91A1BBEF6FC7C6C450A7 /* Pods-DroiPushDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DroiPushDemo/卓易推送.entitlements";
+				INFOPLIST_FILE = DroiPushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.droibaas.PushDemo;
+				PRODUCT_NAME = "卓易推送";
+				PROVISIONING_PROFILE = "15c30494-572f-40a6-9733-d2b4a95ff45b";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEF2E361D3637E20091F6DD /* Build configuration list for PBXProject "DroiPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF2E501D3637E30091F6DD /* Debug */,
+				FCEF2E511D3637E30091F6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEF2E521D3637E30091F6DD /* Build configuration list for PBXNativeTarget "DroiPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF2E531D3637E30091F6DD /* Debug */,
+				FCEF2E541D3637E30091F6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCEF2E331D3637E20091F6DD /* Project object */;
+}
