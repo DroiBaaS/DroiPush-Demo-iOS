@@ -1,20 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "421CCDD2865386BAE9AD3A845B46AF0C02B740D2",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F94801B9A85EA8766A020002E11600E77C60A473",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "1ABD8F7FCBE42DB49E3AF7FAE808E4B32FEC7CAF" : 0,
-    "421CCDD2865386BAE9AD3A845B46AF0C02B740D2" : 0
+    "F94801B9A85EA8766A020002E11600E77C60A473" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4D36BD49-8245-44D6-A680-8304E2ED7B74",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "1ABD8F7FCBE42DB49E3AF7FAE808E4B32FEC7CAF" : "",
-    "421CCDD2865386BAE9AD3A845B46AF0C02B740D2" : "DroiBaaS-SDK-Res\/"
+    "F94801B9A85EA8766A020002E11600E77C60A473" : "DroiPush-Demo-iOS\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "DroiPushDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "push-iOS\/DroiPush\/DroiPushDemo\/DroiPushDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DroiPushDemo\/DroiPushDemo.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DroiBaaS\/DroiPushSDK.git",
@@ -22,9 +22,9 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1ABD8F7FCBE42DB49E3AF7FAE808E4B32FEC7CAF"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DroiBaaS\/DroiBaaS-SDK-Res.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DroiBaaS\/DroiPush-Demo-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "421CCDD2865386BAE9AD3A845B46AF0C02B740D2"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F94801B9A85EA8766A020002E11600E77C60A473"
     }
   ]
 }
