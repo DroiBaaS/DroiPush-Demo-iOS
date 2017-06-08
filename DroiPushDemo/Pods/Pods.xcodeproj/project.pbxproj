@@ -7,35 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30E6F794F7FD5F976EF77434A78554F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		BF75623E6D7372D5CF48885131908F82 /* Pods-DroiPushDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DED71AC288C12E3D5E496D1BCC58EF9 /* Pods-DroiPushDemo-dummy.m */; };
+		43C63C4B62514906C0118B9490D9A33F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FA2AF366E5B6B1A1078C3F6820B90615 /* Pods-DroiPushDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DED71AC288C12E3D5E496D1BCC58EF9 /* Pods-DroiPushDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		029F2AD8F6F0A6575845EA3340CF43CC /* libPods-DroiPushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DroiPushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029F2AD8F6F0A6575845EA3340CF43CC /* libPods-DroiPushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DroiPushDemo.a"; path = "libPods-DroiPushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248DC83F9979FC8A3CA3680AE2D4D319 /* Pods-DroiPushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DroiPushDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F1D543AA31EEC1F700999848A144327 /* DroiPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DroiPush.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94F9169E051848496BD371CF6C4A4607 /* Pods-DroiPushDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DroiPushDemo-frameworks.sh"; sourceTree = "<group>"; };
 		9DED71AC288C12E3D5E496D1BCC58EF9 /* Pods-DroiPushDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DroiPushDemo-dummy.m"; sourceTree = "<group>"; };
 		A50CA4471D01CEB606920E11DE101EE4 /* Pods-DroiPushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DroiPushDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A52E2AC5D107D3A7D1C4FE1493B7A4E4 /* Pods-DroiPushDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DroiPushDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7F4B34DE71F0EE17A456C6D0D68D20C /* Pods-DroiPushDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DroiPushDemo-resources.sh"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1015EB6FE80CAC93271955753079087 /* Pods-DroiPushDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DroiPushDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1618492FC27898D4C43EFC9690046D4 /* DroiCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DroiCoreSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60685311454E3B37DA52BCAF44844421 /* Frameworks */ = {
+		A5D79E28CE65C532EADE110F9777744A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E6F794F7FD5F976EF77434A78554F1 /* Foundation.framework in Frameworks */,
+				43C63C4B62514906C0118B9490D9A33F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08E4EE90873BCAC12E8C56EB91D55178 /* DroiPushSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6DAC6C6B6D09CA5529F2089836687798 /* Frameworks */,
+			);
+			name = DroiPushSDK;
+			path = DroiPushSDK;
+			sourceTree = "<group>";
+		};
 		116D406FC23B512574A1259DD77CB2CC /* Pods-DroiPushDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,14 +62,6 @@
 			path = "Target Support Files/Pods-DroiPushDemo";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		5A51675097F1FBA13AA1D56F1D8CED76 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,22 +70,65 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6DAC6C6B6D09CA5529F2089836687798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D543AA31EEC1F700999848A144327 /* DroiPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A27EC9B3E8EE8D587E6D47145FEF1BB9 /* Pods */,
 				D4EBAE0E72AE130627D8EA94401067DB /* Products */,
 				5A51675097F1FBA13AA1D56F1D8CED76 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+		8E9ACB2030863E38C41BB8973DB79D0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1618492FC27898D4C43EFC9690046D4 /* DroiCoreSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A27EC9B3E8EE8D587E6D47145FEF1BB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C223C28C17041F7F3D316B800B846BEA /* DroiCoreSDK */,
+				08E4EE90873BCAC12E8C56EB91D55178 /* DroiPushSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C223C28C17041F7F3D316B800B846BEA /* DroiCoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8E9ACB2030863E38C41BB8973DB79D0F /* Frameworks */,
+			);
+			name = DroiCoreSDK;
+			path = DroiCoreSDK;
 			sourceTree = "<group>";
 		};
 		D4EBAE0E72AE130627D8EA94401067DB /* Products */ = {
@@ -96,12 +142,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7804D90ABA6D5E11D5A7ED18306487E0 /* Pods-DroiPushDemo */ = {
+		407201D84E496944F51947AF9A3696C6 /* Pods-DroiPushDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91010B19DBF92A57682F95A14CE8529A /* Build configuration list for PBXNativeTarget "Pods-DroiPushDemo" */;
+			buildConfigurationList = 7F32D636C50D425C4008C0A0E0AD33AD /* Build configuration list for PBXNativeTarget "Pods-DroiPushDemo" */;
 			buildPhases = (
-				0B24384385A1384B4ADF8128AF3C7059 /* Sources */,
-				60685311454E3B37DA52BCAF44844421 /* Frameworks */,
+				84B74C98C103DF14A432EED637F1C092 /* Sources */,
+				A5D79E28CE65C532EADE110F9777744A /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,17 +179,17 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7804D90ABA6D5E11D5A7ED18306487E0 /* Pods-DroiPushDemo */,
+				407201D84E496944F51947AF9A3696C6 /* Pods-DroiPushDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B24384385A1384B4ADF8128AF3C7059 /* Sources */ = {
+		84B74C98C103DF14A432EED637F1C092 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF75623E6D7372D5CF48885131908F82 /* Pods-DroiPushDemo-dummy.m in Sources */,
+				FA2AF366E5B6B1A1078C3F6820B90615 /* Pods-DroiPushDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		2ED340591B040E1FBD2BDFCFC579AC77 /* Debug */ = {
+		161634A0098D6B2550B12CBE3070FB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 248DC83F9979FC8A3CA3680AE2D4D319 /* Pods-DroiPushDemo.debug.xcconfig */;
 			buildSettings = {
@@ -257,7 +303,7 @@
 			};
 			name = Release;
 		};
-		CC985C844AA568B09A783378240B4109 /* Release */ = {
+		DBF61C6899A1477EC841B92CBE03696C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50CA4471D01CEB606920E11DE101EE4 /* Pods-DroiPushDemo.release.xcconfig */;
 			buildSettings = {
@@ -292,11 +338,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91010B19DBF92A57682F95A14CE8529A /* Build configuration list for PBXNativeTarget "Pods-DroiPushDemo" */ = {
+		7F32D636C50D425C4008C0A0E0AD33AD /* Build configuration list for PBXNativeTarget "Pods-DroiPushDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2ED340591B040E1FBD2BDFCFC579AC77 /* Debug */,
-				CC985C844AA568B09A783378240B4109 /* Release */,
+				161634A0098D6B2550B12CBE3070FB13 /* Debug */,
+				DBF61C6899A1477EC841B92CBE03696C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  DroiPushDemo
+//  DroiPushSDK
 //
-//  Created by Jon on 16/7/13.
+//  Created by Jon on 16/9/19.
 //  Copyright © 2016年 Droi. All rights reserved.
 //
 

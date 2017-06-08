@@ -14,6 +14,7 @@
 		FC3104911D3642800080C7CE /* DroiPushViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC31048E1D3642800080C7CE /* DroiPushViewController.h */; };
 		FC3104921D3642810080C7CE /* DroiPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31048F1D3642800080C7CE /* DroiPushViewController.m */; };
 		FC3104931D3642810080C7CE /* DroiPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3104901D3642800080C7CE /* DroiPushViewController.xib */; };
+		FCB0ACBE1EE7EB730023CA5B /* sound1.caf in Resources */ = {isa = PBXBuildFile; fileRef = FCB0ACBD1EE7EB730023CA5B /* sound1.caf */; };
 		FCEF2E401D3637E20091F6DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2E3F1D3637E20091F6DD /* main.m */; };
 		FCEF2E431D3637E20091F6DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF2E421D3637E20091F6DD /* AppDelegate.m */; };
 		FCEF2E4B1D3637E20091F6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEF2E4A1D3637E20091F6DD /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		FC31048F1D3642800080C7CE /* DroiPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DroiPushViewController.m; sourceTree = "<group>"; };
 		FC3104901D3642800080C7CE /* DroiPushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DroiPushViewController.xib; sourceTree = "<group>"; };
 		FC8525641D913C4600AF825E /* 卓易推送.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "卓易推送.entitlements"; sourceTree = "<group>"; };
+		FCB0ACBD1EE7EB730023CA5B /* sound1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.caf; sourceTree = "<group>"; };
 		FCEF2E3B1D3637E20091F6DD /* 卓易推送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "卓易推送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEF2E3F1D3637E20091F6DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEF2E411D3637E20091F6DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		FCEF2E3D1D3637E20091F6DD /* DroiPushDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCB0ACBD1EE7EB730023CA5B /* sound1.caf */,
 				FC8525641D913C4600AF825E /* 卓易推送.entitlements */,
 				FC31048E1D3642800080C7CE /* DroiPushViewController.h */,
 				FC31048F1D3642800080C7CE /* DroiPushViewController.m */,
@@ -142,8 +145,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEF2E521D3637E30091F6DD /* Build configuration list for PBXNativeTarget "DroiPushDemo" */;
 			buildPhases = (
-				BE1AF5276BC2F85931812E54 /* [CP] Check Pods Manifest.lock */,
 				99BA46EAAF8FF0E3416AB483 /* DroiBaaS Preprocessor */,
+				BE1AF5276BC2F85931812E54 /* [CP] Check Pods Manifest.lock */,
 				FCEF2E371D3637E20091F6DD /* Sources */,
 				FCEF2E381D3637E20091F6DD /* Frameworks */,
 				FCEF2E391D3637E20091F6DD /* Resources */,
@@ -171,6 +174,8 @@
 				TargetAttributes = {
 					FCEF2E3A1D3637E20091F6DD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5K93T4P36N;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -205,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB0ACBE1EE7EB730023CA5B /* sound1.caf in Resources */,
 				FCEF2E4E1D3637E30091F6DD /* LaunchScreen.storyboard in Resources */,
 				FCEF2E4B1D3637E20091F6DD /* Assets.xcassets in Resources */,
 				83A708411E7122ACCCABD8C3 /* DroiBaaS.plist in Resources */,
@@ -392,12 +398,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "DroiPushDemo/卓易推送.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5K93T4P36N;
 				INFOPLIST_FILE = DroiPushDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.droibaas.PushDemo;
 				PRODUCT_NAME = "卓易推送";
-				PROVISIONING_PROFILE = "15c30494-572f-40a6-9733-d2b4a95ff45b";
+				PROVISIONING_PROFILE = "4d246720-b660-4ff7-a054-0b9fcfe6e221";
+				PROVISIONING_PROFILE_SPECIFIER = NewPush;
 			};
 			name = Debug;
 		};
@@ -407,12 +415,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "DroiPushDemo/卓易推送.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DroiPushDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.droibaas.PushDemo;
 				PRODUCT_NAME = "卓易推送";
-				PROVISIONING_PROFILE = "15c30494-572f-40a6-9733-d2b4a95ff45b";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

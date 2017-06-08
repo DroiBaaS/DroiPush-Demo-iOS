@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>卓易推送</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,13 +23,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>DROI_APP_ID</key>
-	<string>zc8umbzhMKbnAwLLDnxtzHrt7Xq6oxAPlQAAcj0U</string>
-	<key>DROI_APP_SECRET</key>
-	<string>xt8bc57m</string>
-	<key>DROI_CHANNEL_NAME</key>
-	<string>DroiBaaS</string>
-	<key>DROI_PLATFORM_ID</key>
-	<string>JppjzO2J5QbtIPS0FJIZgsXnrewGulIZgsXnrewG</string>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
